@@ -1,35 +1,82 @@
+import { Ionicons } from '@expo/vector-icons';
+import { BlurView } from 'expo-blur';
+import * as Haptics from 'expo-haptics';
 import { Tabs } from 'expo-router';
 import React from 'react';
-
-import { HapticTab } from '@/components/haptic-tab';
-import { IconSymbol } from '@/components/ui/icon-symbol';
-import { Colors } from '@/constants/theme';
-import { useColorScheme } from '@/hooks/use-color-scheme';
+import { Platform, StyleSheet } from 'react-native';
 
 export default function TabLayout() {
-  const colorScheme = useColorScheme();
+  
+  // Haptic Trigger Function
+  const handleTabPress = () => {
+    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+  };
 
   return (
     <Tabs
       screenOptions={{
-        tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
         headerShown: false,
-        tabBarButton: HapticTab,
+        tabBarShowLabel: true,
+        tabBarActiveTintColor: '#00F0FF', // Nexora Neon Cyan
+        tabBarInactiveTintColor: 'rgba(255, 255, 255, 0.3)',
+        tabBarStyle: styles.tabBar,
+        tabBarBackground: () => (
+          <BlurView intensity={30} tint="dark" style={StyleSheet.absoluteFill} />
+        ),
+        tabBarLabelStyle: styles.tabLabel,
       }}>
+
       <Tabs.Screen
         name="index"
         options={{
-          title: 'Home',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />,
+          title: 'NEXUS',
+          tabBarIcon: ({ color, focused }) => (
+            <Ionicons name={focused ? "grid" : "grid-outline"} size={22} color={color} />
+          ),
         }}
+        listeners={{ tabPress: handleTabPress }}
       />
+
       <Tabs.Screen
-        name="explore"
+        name="cards"
         options={{
-          title: 'Explore',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
+          title: 'ASSETS',
+          tabBarIcon: ({ color, focused }) => (
+            <Ionicons name={focused ? "card" : "card-outline"} size={22} color={color} />
+          ),
         }}
+        listeners={{ tabPress: handleTabPress }}
+      />
+
+      <Tabs.Screen
+        name="profile"
+        options={{
+          title: 'OPERATOR',
+          tabBarIcon: ({ color, focused }) => (
+            <Ionicons name={focused ? "person" : "person-outline"} size={22} color={color} />
+          ),
+        }}
+        listeners={{ tabPress: handleTabPress }}
       />
     </Tabs>
   );
 }
+
+const styles = StyleSheet.create({
+  tabBar: {
+    position: 'absolute', 
+    borderTopWidth: 1,
+    borderTopColor: 'rgba(255, 255, 255, 0.08)',
+    backgroundColor: 'rgba(0, 0, 0, 0.85)',
+    height: Platform.OS === 'ios' ? 90 : 70,
+    paddingBottom: Platform.OS === 'ios' ? 30 : 12,
+    paddingTop: 8,
+    elevation: 0, 
+  },
+  tabLabel: {
+    fontSize: 10,
+    fontWeight: '900',
+    letterSpacing: 1.5,
+    marginTop: -2,
+  },
+});
