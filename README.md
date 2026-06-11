@@ -1,50 +1,29 @@
-# Welcome to your Expo app 👋
+# Nexora Mobile Terminal 📱
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+An enterprise-grade, high-performance secure digital banking mobile application built with **React Native**, **Expo**, and **TypeScript**. 
 
-## Get started
+---
 
-1. Install dependencies
+## ⚡ Core Engineering Features
+* **Biometric Authentication:** Deep integration with native device hardware for secure Face ID and Fingerprint authentication loops.
+* **Secure Storage Layer:** Utilizing advanced local secure vaults to store and persist sensitive user session identifiers securely.
+* **Modern Architecture:** Implementation of modular UI components, robust state handling, and optimized layout trees.
+* **Dynamic Navigation Pipelines:** Fully typed, secure client-side routing using Expo Router patterns.
 
+---
+
+## 🛠️ Tech Stack & Dependencies
+* **Framework:** React Native (Expo Managed Workflow)
+* **Language:** TypeScript / JavaScript ES6+
+* **Styling:** NativeWind / Tailwind CSS
+* **Authentication Hooks:** Expo Local Authentication & SecureStore
+
+---
+
+## 🚀 Local Installation & Setup Guide
+
+Ensure you have **Node.js** and **npm/yarn** installed on your system before proceeding.
+
+1. **Clone the Repository:**
    ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+   git clone [https://github.com/SyedHarisM/nexora-mobile-terminal.git](https://github.com/SyedHarisM/nexora-mobile-terminal.git)
