@@ -40,5 +40,5 @@ npx expo start
 Scan the QR code using your Expo Go app (Android) or native Camera app (iOS) to run the application on your physical device.
 
 
-✉️ Support & Contact
+## ✉️ Support & Contact
 For corporate inquiries or system architecture evaluations, contact: ```harismujtaba123@gmail.com```
