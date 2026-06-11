@@ -40,14 +40,5 @@ npx expo start
 Scan the QR code using your Expo Go app (Android) or native Camera app (iOS) to run the application on your physical device.
 
 
-🤝 Project Structure
-
-├── app/               # Centralized Application Router & Screens
-├── components/        # Reusable Functional UI Elements
-├── constants/         # Global Theme Configs & Static Configurations
-└── package.json       # Dependency Matrices & Scripts
-
-
-
 ✉️ Support & Contact
 For corporate inquiries or system architecture evaluations, contact: ```harismujtaba123@gmail.com```
