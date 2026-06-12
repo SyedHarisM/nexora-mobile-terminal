@@ -1,12 +1,10 @@
-<img width="563" height="1218" alt="IMG_7850" src="https://github.com/user-attachments/assets/eab8d001-076a-4b8e-b056-4181d2035ba0" />
-<img width="563" height="1218" alt="IMG_7849" src="https://github.com/user-attachments/assets/481a412e-b27b-4885-8562-210adedf616e" />
-<img width="563" height="1218" alt="IMG_7848" src="https://github.com/user-attachments/assets/1a721f7e-34f8-4beb-bf07-174d6b62beac" />
-<img width="563" height="1218" alt="IMG_7844" src="https://github.com/user-attachments/assets/9168051c-e2a6-4f50-9778-c96e0e1022cb" />
-<img width="563" height="1218" alt="IMG_7843" src="https://github.com/user-attachments/assets/2a8ba654-c733-4132-baa2-77ce047d69e5" />
-<img width="563" height="1218" alt="IMG_7846" src="https://github.com/user-attachments/assets/6fc7f440-d7c7-412d-9674-f86e6a9d3de2" />
-<img width="563" height="1218" alt="IMG_7841" src="https://github.com/user-attachments/assets/58eab976-e562-43b5-af8e-66c29672a295" />
-<img width="563" height="1218" alt="IMG_7840" src="https://github.com/user-attachments/assets/e10eef28-87df-434a-bebf-5b2d753e7508" />
-<img width="563" height="1218" alt="IMG_7839" src="https://github.com/user-attachments/assets/b288add1-4f9e-4526-a12c-0faf8c2eeeb0" />
+<img width="563" height="1218" alt="IMG_7839" src="https://github.com/user-attachments/assets/b39889a5-76ea-4d51-be7d-add54afca181" />
+<img width="563" height="1218" alt="IMG_7840" src="https://github.com/user-attachments/assets/1224e659-7134-44e8-823f-a0ac0b09bda5" />
+<img width="563" height="1218" alt="IMG_7841" src="https://github.com/user-attachments/assets/4c146ec0-35b2-4da4-aee1-94f58e2ecbe7" />
+<img width="563" height="1218" alt="IMG_7846" src="https://github.com/user-attachments/assets/2199b86a-4dad-4a22-992c-279d4d6cbef6" />
+<img width="563" height="1218" alt="IMG_7844" src="https://github.com/user-attachments/assets/c213637e-f6f8-445f-ae82-11ab4f7e0139" />
+<img width="563" height="1218" alt="IMG_7843" src="https://github.com/user-attachments/assets/34cbe1ae-c37d-4903-87c6-15bbae459526" />
+<img width="563" height="1218" alt="IMG_7847" src="https://github.com/user-attachments/assets/8f9f20cc-979a-4011-89b1-4880a023afd9" />
 # Nexora Mobile Terminal 📱
 
 An enterprise-grade, high-performance secure digital banking mobile application built with **React Native**, **Expo**, and **TypeScript**. 
