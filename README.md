@@ -5,7 +5,9 @@
 <img width="563" height="1218" alt="IMG_7844" src="https://github.com/user-attachments/assets/c213637e-f6f8-445f-ae82-11ab4f7e0139" />
 <img width="563" height="1218" alt="IMG_7843" src="https://github.com/user-attachments/assets/34cbe1ae-c37d-4903-87c6-15bbae459526" />
 <img width="563" height="1218" alt="IMG_7847" src="https://github.com/user-attachments/assets/8f9f20cc-979a-4011-89b1-4880a023afd9" />
-# Nexora Mobile Terminal 📱
+
+
+## Nexora Mobile Terminal 📱
 
 An enterprise-grade, high-performance secure digital banking mobile application built with **React Native**, **Expo**, and **TypeScript**. 
 
